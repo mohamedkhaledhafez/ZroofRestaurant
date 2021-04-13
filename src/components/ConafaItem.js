@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import {FaShoppingCart} from 'react-icons/fa'
-
+import { FaShoppingCart } from "react-icons/fa";
 
 const ConafaItem = (props) => {
   const [counter, setCounter] = React.useState(0);
@@ -13,7 +12,7 @@ const ConafaItem = (props) => {
 
   return (
     <>
-      <div className="conafa-container" style={{display: 'grid'}}>
+      <div className="conafa-container">
         <div className="img-container">
           <img src={props.src} />
         </div>
